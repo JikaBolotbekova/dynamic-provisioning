@@ -79,6 +79,7 @@ spec:
       spec:
         accessModes:
           - ReadWriteOnce
+        storageClassName: auto-ebs-sc
 
         resources:
           requests:
